@@ -2,8 +2,7 @@
   "name": "messen",
   "version": "1.0.0-beta.10",
   "description": "A lightweight framework for building Facebook Messenger apps",
-  "main": "dist/messen.js",
-  "types": "dist/messen.d.ts",
+  "main": "src/messen.ts",
   "directories": {
     "test": "test"
   },
@@ -17,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomquirk/messen.git"
+    "url": "git+https://github.com/Timbological/messen.git"
   },
   "author": "Tom Quirk <tomquirkacc@gmail.com>",
   "license": "MIT",
