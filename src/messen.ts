@@ -109,6 +109,7 @@ export class Messen {
       logLevel: this.options.debug ? 'info' : 'silent',
       selfListen: true,
       listenEvents: true,
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36',
     };
     const authPayload = await getAuth(this.options.appstateFilePath, this.promptCredentials, credentials, useCache);
     this.api = await api.getApi(authPayload, apiConfig, this.getMfaCode);
